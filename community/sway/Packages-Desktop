@@ -1,5 +1,5 @@
 # Base
-boredland/manjaro-sway-settings-git
+manjaro-sway/manjaro-sway-settings
 
 # Sway Extras
 >extra flashfocus # nicer flashing on focus change
@@ -14,14 +14,14 @@ xorg-xwayland # xorg-wayland bridge
 qt5-wayland
 gnome-keyring # unlock keyring on login
 polkit-gnome # polkit for visual superuser access
+>extra xdg-desktop-portal-wlr
+>extra libpipewire02
 
 # Greeter
 greetd
 greetd-tuigreet
 
 # Browser
-w3m
-qutebrowser
 firefox
 firefox-ublock-origin
 
@@ -38,6 +38,7 @@ grub-theme-manjaro
 
 # File systems access
 ranger
+pcmanfm-gtk3
 >extra file-roller
 
 # Sound, video and bluetooth
@@ -96,4 +97,4 @@ jq
 oh-my-zsh
 tlp
 wget
-wl-clipboard # wayland clipboard application
+>extra wl-clipboard # wayland clipboard application
